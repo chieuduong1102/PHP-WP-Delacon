@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content-header {
+    background-image: url(/img/bg_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 220px;
+    height: 51px;
+    top: 0;
+    left: 182px;
+    cursor: pointer;
+}
+
+.item-header-group {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-header-1 {
+    width: 327.86px;
+    height: 66.56px;
+    background-image: url(/img/bg-item-header1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.item-header-2 {
+    width: 198.38px;
+    height: 66.98px;
+    background-color: #ff8200;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.item-header-3 {
+    width: 198.38px;
+    height: 66.98px;
+    background-color: #eef02d;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-1057a7 {
+    color: #1057a7;
+}
+
+.text-353535 {
+    color: #353535;
+}
+
+.text-1a71fc {
+    color: #1a71fc;
+}
+
+.text-05afee {
+    color: #05afee;
+}
+
+.text-ffea00 {
+    color: #ffea00;
+}
+
+.text-1472d3 {
+    color: #1472d3;
+}
+
+.text-155196 {
+    color: #155196;
+}
+
+.text-00b5d5 {
+    color: #00b5d5;
+}
+
+.text-067668{
+    color: #067668;
+}
+
+.text-1a5b8d{
+    color: #1a5b8d;
+}
+
+.text-3f3290{
+    color: #3f3290;
+}
+
+.ft-nato {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.ft-nato-bold {
+    font-weight: bold;
+}
+
+.ft-poppins {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.ft-poppins-bold {
+    font-weight: bold;
+
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-84 {
+    width: 84%;
+}
+
+
+.w-20 {
+    width: 20%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-96 {
+    width: 96%;
+}
+
+.w-80vw-i {
+    width: 80vw !important;
+}
+
+.fs-67-5 {
+    font-size: 67.5px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-22-5 {
+    font-size: 22.5px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-14-5 {
+    font-size: 14.5px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16-5 {
+    font-size: 16.5px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-36-5 {
+    font-size: 36.5px;
+}
+
+.fs-26-2 {
+    font-size: 26.2px;
+}
+
+.fs-27 {
+    font-size: 27px;
+}
+
+.let-spac-2 {
+    letter-spacing: 2px;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.let-spac-4 {
+    letter-spacing: 4px;
+}
+
+.mt-4-5 {
+    margin-top: 2rem;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.banner {
+    margin-top: 100px;
+}
+
+
+.bg-1057a7 {
+    background-color: #1057a7;
+}
+
+.bg-155196 {
+    background-color: #155196;
+}
+
+.bg-00b5d5 {
+    background-color: #00b5d5;
+}
+
+.bg-banner-dynamic {
+    width: 100%;
+    height: 360px;
+    background-image: url(/img/bg_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -250px;
+}
+
+.btn-banner-2 {
+    width: 276.74px;
+    height: 75.77px;
+    background-color: #ff8200;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px -11px;
+}
+
+.btn-banner-3 {
+    width: 276.74px;
+    height: 75.77px;
+    background-color: #eef02d;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px -11px;
+}
+
+.bg-body-content-1-dynamic {
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/back_blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -237px;
+    z-index: -1;
+    position: relative;
+
+}
+
+.body-content-1 {
+    box-shadow: 10px 9px 23px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: -250px;
+    background-color: #fffffff2;
+}
+
+.bg-word {
+    width: 80%;
+    height: 100%;
+    background-image: url(/img/bg_world.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.border-2-bold-1057a7 {
+    border: 4px solid #1057a7;
+}
+
+.border-2-medium-1057a7 {
+    border: 2px solid #1057a7;
+}
+
+.border-2-medium-white {
+    border: 2px solid white;
+}
+
+.mt-4-rem {
+    margin-top: 4rem;
+}
+
+.mt-6-rem {
+    margin-top: 6rem;
+}
+
+.ml-10-5-rem {
+    margin-left: 10.5rem;
+}
+
+.ml-13-rem {
+    margin-left: 13rem;
+}
+
+.mt-4-5-rem {
+    margin-top: 4.5rem;
+}
+
+.mt-4-8-rem {
+    margin-top: 4.8rem;
+}
+
+.mt-5-rem {
+    margin-top: 5rem;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.pt-4-5 {
+    padding-top: 1.8rem;
+}
+
+.pt-0-6-rem {
+    padding-top: 0.60rem;
+}
+
+.mr-4-5 {
+    margin-right: 1.8rem;
+}
+
+.ml-4-5 {
+    margin-left: 1.8rem;
+}
+
+.pl-2-5 {
+    padding-left: 0.75rem;
+}
+
+.body-content-2 {
+    background-image: url(/img/bg-content-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.widget-box {
+    width: 96%;
+    margin: auto;
+    height: 300px;
+}
+
+.bg-widget-box {
+    background-image: url(/img/bg-widget-box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img-widget {
+    margin-top: -3rem;
+}
+
+.title-widget {
+    width: fit-content;
+    border-bottom: 10px solid #fbc70e;
+}
+
+.title-widget>p {
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.bg-partner-box {
+    background-image: url(/img/bg-partner-box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.group-award {
+    background-image: url(/img/bg-award.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.award-item {
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content-check {
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+.content-check-1472d3 {
+    border-top: solid 1px #1472d3;
+    border-bottom: solid 1px #1472d3;
+}
+.list-phonenumber {
+    background-image: url(/img/bg-list-phonenumber.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: max-content;
+}
+
+.border-bottom-3877de {
+    border-bottom: 1px solid #3877de;
+}
+
+.phonenumber-item {
+    padding: 1rem;
+}
+
+.phonenumber-item>p {
+    margin: 0;
+}
+
+.chart-center-content {
+    /* background-image: url(/img/bg-item-center-chart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    margin-top: -20px;
+}
+
+.body-content-3 {
+    background-color: white;
+    background-image: url(/img/bg-content-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.item-content-3-1 {
+    background-image: url(/img/bg-item-content-3-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 292px;
+    height: 261px;
+}
+
+.item-content-3-2 {
+    background-image: url(/img/bg-item-content-3-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 292px;
+    height: 261px;
+}
+
+.cirle-stt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cirle-stt-1 {
+    background-color: #155196;
+}
+
+.cirle-stt-2 {
+    background-color: #00b5d5;
+}
+
+.body-content-4 {
+    background-image: url(/img/bg-content-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.content-4 {
+    background-image: url(/img/bg-item-content-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.underline-eef02d {
+    border-bottom: solid 10px #eef02d;
+}
+
+.underline-eef02d > span {
+    position: relative;
+    bottom: -10px;
+}
+
+.item-tick-content-4 > span, .item-tick-content-4 > img{
+    position: relative;
+    bottom: -11px; 
+}
+
+.phone-feilset > img{
+    width: 45px;
+    height: 45px;
+}
+
+.feildset-phonenumber{
+    background-image: url(/img/bg-feildset-phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+.title-feildset {
+    position: relative;
+    top:-8px;
+}
+
+.phone-feilset {
+    position: relative;
+    top:-10px;
+}
+
+.img-item-content-4{
+    width: 105%;
+    max-width: 100%;
+}
+
+.div-head-content-5{
+    background-image: url(/img/bg-content-5-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.div-body-content-5{
+    background-image: url(/img/bg-content-5-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: -10rem;
+    z-index: 0;
+}
+
+.div-body-content-5  > div {
+    padding-top: 7rem;
+}
+
+.item-content-5-web{
+    background-image: url(/img/bg-content-5-web.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.item-content-5-document{
+    background-image: url(/img/bg-content-5-document.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.item-content-5-train{
+    background-image: url(/img/bg-content-5-train.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.price-large{
+    position: relative;
+    bottom: -7px;
+}
