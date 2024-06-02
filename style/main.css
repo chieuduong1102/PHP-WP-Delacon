@@ -352,6 +352,10 @@ table {
     margin-top: 4rem;
 }
 
+.mt-7-rem {
+    margin-top: 7rem;
+}
+
 .mt-6-rem {
     margin-top: 6rem;
 }
@@ -360,8 +364,19 @@ table {
     margin-left: 10.5rem;
 }
 
+.ml-12-rem {
+    margin-left: 12.5rem;
+}
+
+.ml-15-5-rem{
+    margin-left: 15.5rem;
+}
 .ml-13-rem {
     margin-left: 13rem;
+}
+
+.ml-15-rem {
+    margin-left: 15rem;
 }
 
 .mt-4-5-rem {
