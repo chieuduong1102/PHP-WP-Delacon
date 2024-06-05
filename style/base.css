@@ -107,8 +107,12 @@ table {
     font-size: 19px;
 }
 
-.fs-32 {
+.fs-28 {
     font-size: 32px;
+}
+
+.fs-28 {
+    font-size: 28px;
 }
 
 .fs-36 {
@@ -266,6 +270,17 @@ table {
     margin-top: 100px;
 }
 
+.bg-dedede{
+    background-color: #dedede;
+}
+
+.bg-1a71fc{
+    background-color: #1a71fc;
+}
+
+.bg-eef02d{
+    background-color: #eef02d;
+}
 
 .bg-1057a7 {
     background-color: #1057a7;
@@ -307,10 +322,17 @@ table {
     width: 5%;
 }
 
+.w-20 {
+    width: 20%;
+}
+
 .w-55 {
     width: 55%;
 }
 
+.w-60 {
+    width: 60%;
+}
 
 .border-2-bold-1057a7 {
     border: 4px solid #1057a7;
@@ -324,10 +346,17 @@ table {
     border: 2px solid #1057a7;
 }
 
+.border-2-medium-155196 {
+    border: 2px solid #155196;
+}
+
 .border-2-medium-white {
     border: 2px solid white;
 }
 
+.mt-2-5{
+    margin-top: .8rem;
+}
 .mt-2-5-rem {
     margin-top: 2.5rem;
 }
