@@ -614,11 +614,195 @@ table {
     width: 120%;
 }
 
-@media only screen and (max-width: 1400px) {
+.text-content-price-5{
+    padding-left: 1rem;
+}
+
+.content-chart-1{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1680px) {
+    .item-tick-content-4 > div, .item-tick-content-4 > span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
     #img-item-center-chart{
         width: 100%;
     }
-    .img-ticket-content-5{
+
+    .content-chart-1 {
+        margin-left: -4.5rem !important;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 18px !important;
         width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 3.8rem !important;
+        margin-left: 6rem !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 4rem !important;
+        margin-left: 8rem !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 5rem !important;
+        margin-left: 6rem !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 4.5rem !important;
+        margin-left: -4rem !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .check-content-white{
+        margin-top: 3rem !important;
+    }
+
+    .content-4 {
+        background-size: 100% 105%;
+        border-radius: 50px !important;
+    }
+
+    .btn-banner-2, .btn-banner-3 {
+        width: 90% !important;
+    }
+
+    .item-tick-content-4 > div, .item-tick-content-4 > span {
+        font-size: 16px;
+    }
+
+    .item-content-5-web, .item-content-5-document, .item-content-5-train {
+        background-size: 100% 85%;
+        background-position: top;
+        height: 450px;
+    }
+
+    .item-content-5-web > .price-item-content{
+        margin-top: 2rem !important;
+    }
+
+    .item-content-5-document > .price-item-content{
+        margin-top: 2rem !important;
+    }
+
+    .item-content-5-train > .price-item-content{
+        margin-top: 2rem !important;
+    }
+
+    .item-content-5-web > .price-item-content:nth-child(2),
+    .item-content-5-document > .price-item-content:nth-child(2),
+    .item-content-5-train > .price-item-content:nth-child(2){
+        margin-top: -0.5rem !important;
+    }
+
+    .item-content-5-web > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-document > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-train > .price-item-content:nth-child(1) > div > div > div {
+        font-size: 12px !important;
+    }
+
+    .item-content-5-web > div > div > div > div,
+    .item-content-5-document > div > div > div > div,
+    .item-content-5-train > div > div > div > div{
+        font-size: 12px !important;
+    }
+    
+    .content-footer-right > .content-right {
+        width: 90% !important;
+    }
+
+    .text-content-price-5{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1573px) {
+    .list-phonenumber > .phonenumber-item{
+        width: 150px;
+        text-align: center;
+    }
+
+    .list-phonenumber > .phonenumber-item > p{
+        font-size: 13px !important;
+
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .item-content-5-web > .total-price > .fs-20,
+    .item-content-5-document > .total-price .fs-20,
+    .item-content-5-train > .total-price .fs-20{
+        font-size: 15px;
+    }
+
+    .item-content-5-web > .total-price > .fs-36-5,
+    .item-content-5-document > .total-price .fs-36-5,
+    .item-content-5-train > .total-price .fs-36-5{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .btn-banner-2 , .btn-banner-3{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .phone-feilset > .phonenumber {
+        font-size: 25px !important;
     }
 }

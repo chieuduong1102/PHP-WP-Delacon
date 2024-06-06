@@ -1,0 +1,534 @@
+
+@media screen and (max-width: 1476px) {
+    .item-tick-content-4 > div, .item-tick-content-4 > span {
+        font-size: 14px;
+    }
+
+    .phone-feilset > .phonenumber{
+        font-size: 30px;
+    }
+
+    .img-item-content-4 {
+        width: 80%;
+    }
+
+    .img-ticket-content-5{
+        width: 70% !important;
+    }
+
+    .div-body-content-5 > div.row{
+        width: 90%;
+        margin: auto;
+    }
+
+    .content-chart-1{
+        margin-top: 0.7vw !important;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 2.8vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 4.3vw !important;
+        margin-left: 8vw !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 5.3vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 4.5vw !important;
+        margin-left: -5vw !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .check-content-white{
+        margin-top: 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #img-item-center-chart{
+        width: 100%;
+    }
+    .img-ticket-content-5{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    .content-chart-1{
+        margin-top: 1vw !important;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 4vw !important;
+        margin-left: 5rem !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 4.8vw !important;
+        margin-left: 7rem !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 5vw !important;
+        margin-left: 5rem !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 5.3vw !important;
+        margin-left: -4rem !important;
+    }
+}
+
+
+@media screen and (max-width: 1370px) {
+    .content-chart-1{
+        margin-top: 1vw !important;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 3.5vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 4vw !important;
+        margin-left: 8vw !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 5.5vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 4.5vw !important;
+        margin-left: -5.5vw !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 15px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .check-content-white{
+        margin-top: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .content-chart-2{
+        margin-top: 3vw !important;
+        margin-left: 5vw !important;
+    }
+
+    .content-chart-3{
+        margin-top: 3.5vw !important;
+        margin-left: 7.5vw !important;
+    }
+
+    .content-chart-4{
+        margin-top: 5vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-5{
+        margin-top: 4vw !important;
+        margin-left: -5.5vw !important;
+    }
+
+}
+
+@media screen and (max-width: 1305px) {
+    .content-chart-2{
+        margin-top: 3vw !important;
+        margin-left: 5vw !important;
+    }
+
+    .content-chart-3{
+        margin-top: 3.5vw !important;
+        margin-left: 7.5vw !important;
+    }
+
+    .content-chart-4{
+        margin-top: 5vw !important;
+        margin-left: 5.5vw !important;
+    }
+
+    .content-chart-5{
+        margin-top: 4vw !important;
+        margin-left: -5.5vw !important;
+    }
+
+}
+
+@media screen and (max-width: 1285px) {
+    .content-chart-2{
+        margin-top: 2vw !important;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .content-chart-4{
+        margin-top: 4vw !important;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .content-chart-4{
+        margin-top: 4vw !important;
+        margin-left: 5vw !important;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .content-chart-1{
+        margin-top: 0.3vw !important;
+        margin-left: -5.5vw !important;
+    }
+
+    .content-chart-2{
+        margin-top: 2vw !important;
+        margin-left: 5vw !important;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .content-chart-3{
+        margin-top: 2.5vw !important;
+    }
+
+    .content-chart-2{
+        margin-top: 1vw !important;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .content-chart-5{
+        margin-top: 3vw !important;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    .content-chart-2{
+        margin-top: -1vw !important;
+    }
+
+    .content-chart-3{
+        margin-top: 0vw !important;
+    }
+
+    .content-chart-4{
+        margin-top: 3vw !important;
+    }
+
+    .check-content-white{
+        margin-top: 1.5rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1091px) {
+    #img-item-center-chart{
+        width: 100%;
+    }
+
+    .content-chart-1 {
+        margin-left: -3.5rem !important;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: -1rem !important;
+        margin-left: 3rem !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: -0.5rem !important;
+        margin-left: 4.5rem !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 2.5rem !important;
+        margin-left: 3rem !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 2rem !important;
+        margin-left: -3.5rem !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+    .check-content-white{
+        margin-top: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 1.5rem !important;
+        margin-left: 3rem !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 2rem !important;
+        margin-left: 4.5rem !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 3rem !important;
+        margin-left: 3rem !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 8px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 2rem !important;
+        margin-left: -3.5rem !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 10px !important;
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 1055px) {
+    .content-chart-3{
+        margin-top: 1.5rem !important;
+        margin-left: 4.5rem !important;
+    }
+}

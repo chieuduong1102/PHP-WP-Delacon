@@ -61,8 +61,8 @@ div{
 }
 
 .btn-banner-2 {
-    width: 276.74px;
-    height: 75.77px;
+    width: 35vw;
+    height: 12vw;
     background-color: #ff8200;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,8 +72,8 @@ div{
 }
 
 .btn-banner-3 {
-    width: 276.74px;
-    height: 75.77px;
+    width: 35vw;
+    height: 12vw;
     background-color: #eef02d;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ div{
     background-image: url(../img/bg-content-3.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
 
 .item-content-3-1 {
@@ -270,32 +270,24 @@ div{
     position: relative;
     top: -10rem;
     z-index: 0;
+
 }
 
 .div-body-content-5  > div {
     padding-top: 7rem;
 }
 
-/* .item-content-5-web{
-    background-image: url(../img/bg-content-5-web-sp.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+.item-content-5-web{
+    margin-left: -2vw;
 }
 
 .item-content-5-document{
-    background-image: url(../img/bg-content-5-document-s0.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    margin-left: -2vw !important;
 }
 
 .item-content-5-train{
-    background-image: url(../img/bg-content-5-train.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-} */
+    margin-left: -2vw !important;
+}
 
 .bottom-content-5{
     background-color: #1472d3;
@@ -307,7 +299,7 @@ div{
     background-image: url(../img/bg-content-6-sp.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
 
 .body-content-6{
@@ -418,11 +410,303 @@ div{
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
 }
 
+
+
+@media screen and (max-width: 866px) {
+    .item-content-5-web > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-document > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-train > .price-item-content:nth-child(1) > div > div > div {
+        font-size: 42px !important;
+    }
+
+    .item-content-5-web > div > div > div > div,
+    .item-content-5-document > div > div > div > div,
+    .item-content-5-train > div > div > div > div{
+        font-size: 20px !important;
+    }
+    
+    .item-content-5-web{
+        margin-left: -5vw;
+    }
+
+    .item-content-5-document{
+        margin-left: -5vw !important;
+    }
+
+    .item-content-5-train{
+        margin-left: -5vw !important;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .item-header > p{
         font-size: 24px !important;
     }
+
+    .item-content-5-web > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-document > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-train > .price-item-content:nth-child(1) > div > div > div {
+        font-size: 42px !important;
+    }
+
+    .item-content-5-web > div > div > div > div,
+    .item-content-5-document > div > div > div > div,
+    .item-content-5-train > div > div > div > div{
+        font-size: 20px !important;
+    }
+    
+    .item-content-5-web{
+        margin-left: -7vw;
+    }
+
+    .item-content-5-document{
+        margin-left: -7vw !important;
+    }
+
+    .item-content-5-train{
+        margin-left: -7vw !important;
+    }
 }
+
+@media screen and (max-width: 763px) {
+    .item-content-5-web > .total-price > .fs-20,
+    .item-content-5-document > .total-price .fs-20,
+    .item-content-5-train > .total-price .fs-20{
+        font-size: 35px;
+    } 
+    .item-content-5-web > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-document > .price-item-content:nth-child(1) > div > div > div,
+    .item-content-5-train > .price-item-content:nth-child(1) > div > div > div {
+        font-size: 32px !important;
+    }
+
+    .item-content-5-web > div > div > div > div,
+    .item-content-5-document > div > div > div > div,
+    .item-content-5-train > div > div > div > div{
+        font-size: 18px !important;
+    }
+    
+}
+
+@media screen and (max-width: 713px) {
+    .body-content-5{
+        display: none;
+    }
+    .fs-11 {
+        font-size: 9px !important;
+    }
+    
+    .fs-12 {
+        font-size: 10px !important;
+    }
+    
+    .fs-16 {
+        font-size: 14px !important;
+    }
+    
+    .fs-17 {
+        font-size: 15px !important;
+    }
+    
+    .fs-18 {
+        font-size: 16px !important;
+    }
+    
+    .fs-19 {
+        font-size: 17px !important;
+    }
+    
+    .fs-28 {
+        font-size: 26px !important;
+    }
+    
+    .fs-36 {
+        font-size: 34px !important;
+    }
+    
+    .fs-40 {
+        font-size: 36px !important;
+    }
+    
+    .fs-50 {
+        font-size: 46px !important;
+    }
+    
+    .fs-80 {
+        font-size: 78px !important;
+    }
+    
+    .fs-200 {
+        font-size: 202px !important;
+    }
+    
+    .fs-67-5 {
+        font-size: 65.5px !important;
+    }
+    
+    .fs-20 {
+        font-size: 18px !important;
+    }
+    
+    .fs-22 {
+        font-size: 20px !important;
+    }
+    
+    .fs-22-5 {
+        font-size: 20.5px !important;
+    }
+    
+    .fs-23 {
+        font-size: 21px !important;
+    }
+    
+    .fs-24 {
+        font-size: 22px !important;
+    }
+    
+    .fs-14-5 {
+        font-size: 12.5px !important;
+    }
+    
+    .fs-14 {
+        font-size: 12px !important;
+    }
+    
+    .fs-16-5 {
+        font-size: 14.5px !important;
+    }
+    
+    .fs-30 {
+        font-size: 28px !important;
+    }
+    
+    .fs-36-5 {
+        font-size: 34.5px !important;
+    }
+    
+    .fs-70 {
+        font-size: 68px !important;
+    }
+    
+    .fs-26-2 {
+        font-size: 24.2px !important;
+    }
+    
+    .fs-27 {
+        font-size: 25px !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 639px) {
+    .fs-11 {
+        font-size: 7px !important;
+    }
+    
+    .fs-12 {
+        font-size: 8px !important;
+    }
+    
+    .fs-16 {
+        font-size: 12px !important;
+    }
+    
+    .fs-17 {
+        font-size: 13px !important;
+    }
+    
+    .fs-18 {
+        font-size: 14px !important;
+    }
+    
+    .fs-19 {
+        font-size: 15px !important;
+    }
+    
+    
+    .fs-28 {
+        font-size: 20px !important;
+    }
+    
+    .fs-36 {
+        font-size: 32px !important;
+    }
+    
+    .fs-40 {
+        font-size: 30px !important;
+    }
+    
+    .fs-50 {
+        font-size: 44px !important;
+    }
+    
+    .fs-80 {
+        font-size: 76px !important;
+    }
+    
+    .fs-200 {
+        font-size: 200px !important;
+    }
+    
+    .fs-67-5 {
+        font-size: 63.5px !important;
+    }
+    
+    .fs-20 {
+        font-size: 16px !important;
+    }
+    
+    .fs-22 {
+        font-size: 18px !important;
+    }
+    
+    .fs-22-5 {
+        font-size: 18.5px !important;
+    }
+    
+    .fs-23 {
+        font-size: 13px !important;
+    }
+    
+    .fs-24 {
+        font-size: 14px !important;
+    }
+    
+    .fs-14-5 {
+        font-size: 9.5px !important;
+    }
+    
+    .fs-14 {
+        font-size: 10px !important;
+    }
+    
+    .fs-16-5 {
+        font-size: 10.5px !important;
+    }
+    
+    .fs-30 {
+        font-size: 26px !important;
+    }
+    
+    .fs-36-5 {
+        font-size: 32.5px !important;
+    }
+    
+    .fs-70{
+        font-size: 66px !important;
+    }
+    
+    .fs-26-2 {
+        font-size: 22.2px !important;
+    }
+    
+    .fs-27 {
+        font-size: 14px !important;
+    }
+    
+}
+
 
 @media screen and (max-width: 660px) {
     .item-header > p{
@@ -472,5 +756,9 @@ div{
         margin-top: 0.5rem !important;
         padding-left: 0.5rem !important;
         font-size: 13px !important;
+    }
+
+    .fs-32 {
+        font-size: 18px !important;
     }
 }
