@@ -278,6 +278,10 @@ html, body {
     font-size: 22.5px;
 }
 
+.fs-22 {
+    font-size: 22px;
+}
+
 .mt-5 {
     margin-top: 5rem;
 }
@@ -534,6 +538,10 @@ html, body {
     font-size: 200px;
 }
 
+.fs-24{
+    font-size: 24px;
+}
+
 .body-content-6{
     box-shadow: 10px 9px 23px 3px rgba(0, 0, 0, 0.1);
 }
@@ -562,6 +570,41 @@ html, body {
         padding-left: 5px !important;
         padding-right: 5px !important;
     }
+    .item-header img {
+        max-height: 30px;
+    }
+
+    .item-header>p {
+        font-size: 14px;
+    }
+
+    .fs-11 {
+        font-size: 10px !important;
+    }
+
+    .widget-box p {
+        margin: 10px 0;
+    }
+
+    .group-item-partner .row > [class*='col-'] {
+        padding: 10px;
+    }
+
+    .swiper-pagination {
+        margin-top: 20px;
+    }
+
+    .fs-19 {
+        font-size: 16px !important;
+    }
+
+    .fs-15 {
+        font-size: 14px !important;
+    }
+
+    .fs-14 {
+        font-size: 13px !important;
+    }
     .fs-80 {
         font-size: 60px;
     }
@@ -581,6 +624,15 @@ html, body {
     .fs-30 {
         font-size: 22px;
     }
+
+    .fs-24 {
+        font-size: 18px !important;
+    }
+
+    .fs-22 {
+        font-size: 15px !important;
+    }
+
 
     .fs-27 {
         font-size: 20px;
@@ -626,6 +678,41 @@ html, body {
     .container-fluid{
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+    .item-header img {
+        max-height: 15px;
+    }
+
+    .item-header>p {
+        font-size: 13px;
+    }
+
+    .fs-19 {
+        font-size: 14px !important;
+    }
+
+    .fs-18 {
+        font-size: 13px !important;
+    }
+
+    .fs-15 {
+        font-size: 13px;
+    }
+
+    .fs-14 {
+        font-size: 12px !important;
+    }
+
+    .fs-24 {
+        font-size: 16px !important;
+    }
+
+    .fs-22 {
+        font-size: 14px !important;
+    }
+
+    .fs-11 {
+        font-size: 9px !important;
     }
     .fs-80 {
         font-size: 40px;
@@ -692,49 +779,11 @@ html, body {
 }
 
 .fs-11 {
-    font-size: 11px !important;
+    font-size: 11px;
 }
 
 .ml-1-rem-i {
     margin-left: 0.2rem !important;
-}
-
-@media (max-width: 768px) {
-    .item-header img {
-        max-height: 30px;
-    }
-
-    .item-header>p {
-        font-size: 14px;
-    }
-
-    .fs-11 {
-        font-size: 10px !important;
-    }
-
-    .widget-box p {
-        margin: 10px 0;
-    }
-
-    .group-item-partner .row > [class*='col-'] {
-        padding: 10px;
-    }
-
-    .swiper-pagination {
-        margin-top: 20px;
-    }
-
-    .fs-19 {
-        font-size: 16px !important;
-    }
-
-    .fs-15 {
-        font-size: 14px !important;
-    }
-
-    .fs-14 {
-        font-size: 13px !important;
-    }
 }
 
 .item-content-7{
@@ -766,6 +815,10 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.question > *{
+    line-height: 1.2;
 }
 
 .bg-ff8200 {
@@ -827,10 +880,10 @@ html, body {
         padding-bottom: 20px; 
     }
     .title-slide-ct-7 .fs-36 {
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
     .title-slide-ct-7 .fs-22 {
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
     .content-disp-ct-7 {
         margin-left: 0;
@@ -843,37 +896,6 @@ html, body {
     }
 }
 
-@media (max-width: 576px) {
-    .item-header img {
-        max-height: 15px;
-    }
-
-    .item-header>p {
-        font-size: 13px;
-    }
-
-    .fs-19 {
-        font-size: 14px !important;
-    }
-
-    .fs-18 {
-        font-size: 13px !important;
-    }
-
-    .fs-15 {
-        font-size: 13px;
-    }
-
-    .fs-14 {
-        font-size: 12px !important;
-    }
-
-
-    .fs-11 {
-        font-size: 9px !important;
-    }
-}
-
 @media (max-width: 430px) {
     .item-header img {
         max-height: 13px;
@@ -883,11 +905,27 @@ html, body {
         font-size: 10px;
     }
 
+    .fs-19 {
+        font-size: 11px !important;
+    }
+
     .fs-18 {
         font-size: 10px !important;
     }
 
     .fs-14 {
+        font-size: 10px !important;
+    }
+
+    .fs-27 {
+        font-size: 13px !important;
+    }
+
+    .fs-24 {
+        font-size: 11px !important;
+    }
+
+    .fs-22 {
         font-size: 10px !important;
     }
 
@@ -900,7 +938,9 @@ html, body {
     }
 
     .fs-34{
-        font-size: 15px;
+        font-size: 14px;
     }
-    
+    .fs-15 {
+        font-size: 12px !important;
+    }
 }
