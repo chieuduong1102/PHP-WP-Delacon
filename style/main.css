@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden !important;
 }
 
 .content-header {
@@ -339,20 +338,20 @@ table {
 
 .item-content-3-1 {
     background-image: url(../img/bg-item-content-3-1.png);
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 292px;
-    height: 261px;
+    width: 265px;
+    height: 252px;
 }
 
 .item-content-3-2 {
     background-image: url(../img/bg-item-content-3-2.png);
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 292px;
-    height: 261px;
+    width: 265px;
+    height: 252px;
 }
 
 .cirle-stt {
