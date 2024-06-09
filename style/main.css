@@ -1173,6 +1173,11 @@ table {
 
     .check-content-white{
         margin-top: 1.5rem !important;
+        padding-top: 10px;
+    }
+
+    .phonenumber-item{
+        padding: 10px !important;
     }
 
 }
