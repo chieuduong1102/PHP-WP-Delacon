@@ -554,6 +554,7 @@ html, body {
     line-height: 1.2;
 }
 
+
 @media (max-width: 992px) {
     .img-fluid {
         max-width: 80% !important;
@@ -563,9 +564,19 @@ html, body {
         font-size: 180px;
     }
     
+    .text-content-item-3{
+        margin: auto;
+    }
+
+    .bg-widget-box{
+        
+    }
 }
 
 @media (max-width: 768px) {
+    .text-content-item-3{
+        margin: 0;
+    }
     .container-fluid{
         padding-left: 5px !important;
         padding-right: 5px !important;
@@ -679,6 +690,19 @@ html, body {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+
+    .group-award {
+        height: 92px;
+    }
+
+    .title-award{
+        padding-top: 15px;
+    }
+
+    .cirle-stt {
+        margin-left: 20px;
+    }
+
     .item-header img {
         max-height: 15px;
     }
@@ -798,7 +822,6 @@ html, body {
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: #1a71fc !important;
 }
 
 .bg-1057a7 {
@@ -870,9 +893,6 @@ html, body {
     background-color: #ffffffd8;
 }
 
-.fs-18 {
-    font-size: 18px !important;
-}
 
 @media (max-width: 767.98px) {
     .item-content-7 {
@@ -910,7 +930,11 @@ html, body {
     }
 
     .fs-18 {
-        font-size: 10px !important;
+        font-size: 9px !important;
+    }
+
+    .fs-11 {
+        font-size: 8px !important;
     }
 
     .fs-14 {
@@ -938,9 +962,36 @@ html, body {
     }
 
     .fs-34{
-        font-size: 14px;
+        font-size: 12px;
     }
     .fs-15 {
         font-size: 12px !important;
     }
+
+    .cirle-stt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 12px;
+        font-size: 10px;
+    }
+
+    .item-content-3-1,   
+    .item-content-3-2 {
+        background-position: center;
+        background-size: contain;
+    }
+
+    .text-content-item-3{
+        padding-top: 10px;
+    }
+
+    .box-QA > p {
+        font-size: 12px;
+    }
+
 }
