@@ -195,7 +195,7 @@ body {
 }
 
 .group-parter {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border-radius: 10px;
     border: 4px solid #d6e9ff;
 }
@@ -560,6 +560,17 @@ body {
     line-height: 1.2;
 }
 
+.title-p-1{
+    width: 412px;
+    margin: auto;
+    position: relative;
+    left: -1rem;
+}
+
+.title-p-1 > * {
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     .bg-widget-box {
         margin-left: 0;
@@ -628,7 +639,7 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 999px) {
     .img-fluid {
         max-width: 80% !important;
     }
@@ -667,7 +678,7 @@ body {
 
     .text-content-item-3 {
         padding-right: 3.3rem;
-        margin-left: 0;
+        margin-left: 1rem;
         margin-top: 1rem;
     }
 
@@ -693,11 +704,42 @@ body {
         font-size: 15px !important;
     }
 
+    .bg-word > .content > .fs-27 {
+        font-size: 16px !important;
+    }
+
+    .bg-word > .content > .fs-22 {
+        font-size: 14px !important;
+    }
+
+    .underline-left-2 > p.fs-24,
+    .underline-left-1 > p.fs-24,
+    .underline-right-2 > p.fs-24,
+    .underline-right-1 > p.fs-24{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 928px) {
+    .bg-word > .content > .fs-27 {
+        font-size: 14px !important;
+    }
+
+    .bg-word > .content > .fs-22 {
+        font-size: 12px !important;
+    }
+
+    .underline-left-2 > p.fs-24,
+    .underline-left-1 > p.fs-24,
+    .underline-right-2 > p.fs-24,
+    .underline-right-1 > p.fs-24{
+        font-size: 12px !important;
+    }
 }
 
 @media (max-width: 768px) {
     .text-content-item-3>hr {
-        margin-top: 10px !important;
+        margin-top: 20px !important;
     }
     .item-content-3-1,
     .item-content-3-2 {
@@ -708,6 +750,10 @@ body {
     .text-content-item-3 {
         margin: 0;
         padding: 20px 10px;
+    }
+
+    .bg-widget-box {
+        background-size: 90% 100% !important;
     }
 
     .container-fluid {
@@ -1090,17 +1136,38 @@ body {
     .case-no .fs-50 {
         font-size: 2rem;
     }
+
+    .title-content-4 > div > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .bg-widget-box{
+        background-size: 90% 90% !important;
+    }
+
+    .title-content-4 > div > p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 500px) {
-    .text-content-item-3 {
+    .bg-widget-box{
+        background-size: 90% 90% !important;
     }
 
-    .cirle-stt {
+    .widget-box > p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
 @media (max-width: 430px) {
+    .title-content-4 > div > p {
+        font-size: 14px;
+    }
+
     .item-header img {
         max-height: 13px;
     }
@@ -1173,7 +1240,8 @@ body {
     }
 
     .text-content-item-3 {
-        padding-top: 10px;
+        margin-top: -10px;
+        padding-top: 0px;
     }
 
     .box-QA>p {
@@ -1182,5 +1250,74 @@ body {
 
     .item-content-5-web, .item-content-5-document, .item-content-5-train {
         width: 100%;
+    }
+    
+    .icon-check-content-5 {
+        width: 50px;
+    }
+    
+    .content-check-5 {
+        font-size: 14px;
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .fs-14{
+        font-size: 8px !important;
+    }
+
+    .fs-19{
+        font-size: 10px !important;
+    }
+
+    .cirle-stt{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .fs-14{
+        font-size: 7px !important;
+    }
+
+    .fs-19{
+        font-size: 9px !important;
+    }
+
+    .title-content-4 > div > p {
+        font-size: 10px;
+    }
+
+    .header-sp > div > .fs-80 {
+        font-size: 20px !important;
+    }
+
+    .header-sp > div > .fs-36-5 {
+        font-size: 14px;
+    }
+
+    .bg-01aeee.w-fit-content.m-auto > p {
+        font-size: 14px !important;
+    }
+
+    .content-2 > .fs-16.text-white {
+        font-size: 14px !important;
+    }
+    
+    .group-award {
+        width: 98%;
+        margin: auto;
+        background-size: 105% 100%;
+    }
+
+    .title-award{
+        padding-top: 10px;
+        padding-right: 0;
+    }
+
+    .widget-box > p {
+        padding-right: 0px;
     }
 }
