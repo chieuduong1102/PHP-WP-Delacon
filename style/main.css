@@ -244,9 +244,10 @@ table {
 }
 
 .widget-box {
-    width: 96%;
+    width: 100%;
     margin: auto;
     height: 300px;
+    margin-left: -15px;
 }
 
 .bg-widget-box {
@@ -282,6 +283,8 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-left: 1.5rem;
+
 }
 
 .award-item {
@@ -375,14 +378,14 @@ table {
     background-image: url(../img/bg-content-4.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
 
 .content-4 {
     background-image: url(../img/bg-item-content-4.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 105%;
 }
 
 .underline-eef02d {
@@ -549,6 +552,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -1rem;
 }
 
 .content-footer{
@@ -622,17 +626,116 @@ table {
     margin-top: 1rem;
 }
 
+.title-p-1{
+    width: 338px;
+    margin: auto;
+}
+
+.title-p-1 > p {
+    margin: auto !important;
+    padding-top: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media screen and (max-width: 1708px) {
+    .fs-20{
+        font-size: 16px !important;
+    }
+}
+
+
 @media screen and (max-width: 1680px) {
+    #img-item-center-chart{
+        width: 897px;
+        height: 751px;
+    }
     .item-tick-content-4 > div, .item-tick-content-4 > span {
         font-size: 16px;
+    }
+
+    .content-chart-1 {
+        margin-left: -5rem !important;
+        margin-top: 0.5rem;
+    }
+
+    .content-chart-1 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+
+    .content-chart-1 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-2{
+        margin-top: 4rem !important;
+        margin-left: 5.5rem !important;
+    }
+
+    .content-chart-2 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-2 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-3{
+        margin-top: 4rem !important;
+        margin-left: 8rem !important;
+    }
+
+    .content-chart-3 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-3 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-4{
+        margin-top: 5rem !important;
+        margin-left: 5.5rem !important;
+    }
+
+    .content-chart-4 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-4 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .content-chart-5{
+        margin-top: 4.5rem !important;
+        margin-left: -5rem !important;
+    }
+
+    .content-chart-5 > p:nth-child(1) {
+        font-size: 18px !important;
+        width: 80%;
+    }
+    
+    .content-chart-5 > p:nth-child(2) {
+        font-size: 12px !important;
+        width: 80%;
+    }
+
+    .check-content-white{
+        margin-top: 3rem !important;
     }
 }
 
 @media screen and (max-width: 1600px) {
-    #img-item-center-chart{
-        width: 100%;
-    }
-
     .content-chart-1 {
         margin-left: -4.5rem !important;
     }
@@ -712,7 +815,7 @@ table {
     }
 
     .content-4 {
-        background-size: 100% 105%;
+        background-size: 105% 105%;
         border-radius: 50px !important;
     }
 
@@ -795,6 +898,17 @@ table {
     }
 }
 
+
+@media (max-width: 1491px) {
+    .fs-26-2{
+        font-size: 20px !important;
+    }
+
+    .bg-banner-dynamic {
+        margin-top: -280px;
+    }
+}
+
 @media screen and (max-width: 1250px) {
     .btn-banner-2 , .btn-banner-3{
         font-size: 20px !important;
@@ -830,83 +944,24 @@ table {
         margin: auto;
     }
 
-    .content-chart-1{
-        margin-top: 0.7vw !important;
-    }
-
-    .content-chart-1 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-
-    .content-chart-1 > p:nth-child(2) {
-        font-size: 12px !important;
-        width: 80%;
-    }
-
-    .content-chart-2{
-        margin-top: 2.8vw !important;
-        margin-left: 5.5vw !important;
-    }
-
-    .content-chart-2 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-2 > p:nth-child(2) {
-        font-size: 12px !important;
-        width: 80%;
-    }
-
-    .content-chart-3{
-        margin-top: 4.3vw !important;
-        margin-left: 8vw !important;
-    }
-
-    .content-chart-3 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-3 > p:nth-child(2) {
-        font-size: 12px !important;
-        width: 80%;
-    }
-
-    .content-chart-4{
-        margin-top: 5.3vw !important;
-        margin-left: 5.5vw !important;
-    }
-
-    .content-chart-4 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-4 > p:nth-child(2) {
-        font-size: 12px !important;
-        width: 80%;
-    }
-
-    .content-chart-5{
-        margin-top: 4.5vw !important;
-        margin-left: -5vw !important;
-    }
-
-    .content-chart-5 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-5 > p:nth-child(2) {
-        font-size: 12px !important;
-        width: 80%;
-    }
-
     .check-content-white{
         margin-top: 3rem !important;
     }
+}
+
+@media only screen and (max-width: 1350px) {
+    .title-widget > p{
+        font-size: 16px !important;
+    }
+
+    .title-p-1 > p {
+        font-size: 14px !important;
+    }
+
+    .title-p-1 {
+        width: 250px;
+    }
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -919,90 +974,36 @@ table {
 }
 
 @media only screen and (max-width: 1425px) {
+    .content-3-chart{
+        width: 90% !important;
+    }
+    #img-item-center-chart{
+        width: 660px;
+        height: auto;
+    }
+    
+    .mt-5-rem{
+        margin-top: 1rem !important;
+    }
+
     .content-chart-1{
-        margin-top: 1vw !important;
-    }
-
-    .content-chart-1 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-
-    .content-chart-1 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-2{
-        margin-top: 4vw !important;
-        margin-left: 5rem !important;
-    }
-
-    .content-chart-2 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-2 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-3{
-        margin-top: 4.8vw !important;
-        margin-left: 7rem !important;
-    }
-
-    .content-chart-3 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-3 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-4{
-        margin-top: 5vw !important;
-        margin-left: 5rem !important;
-    }
-
-    .content-chart-4 > p:nth-child(1) {
-        font-size: 15px !important;
-        width: 80%;
-    }
-    
-    .content-chart-4 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-5{
-        margin-top: 5.3vw !important;
+        margin-top: 0.1rem !important;
         margin-left: -4rem !important;
     }
-}
-
-
-@media screen and (max-width: 1370px) {
-    .content-chart-1{
-        margin-top: 1vw !important;
-    }
 
     .content-chart-1 > p:nth-child(1) {
-        font-size: 15px !important;
+        font-size: 14px !important;
         width: 80%;
     }
 
     .content-chart-1 > p:nth-child(2) {
-        font-size: 10px !important;
+        font-size: 9px !important;
         width: 80%;
     }
 
     .content-chart-2{
-        margin-top: 3.5vw !important;
-        margin-left: 5.5vw !important;
+        margin-top: 1.8rem !important;
+        margin-left: 3.5rem !important;
     }
 
     .content-chart-2 > p:nth-child(1) {
@@ -1016,8 +1017,8 @@ table {
     }
 
     .content-chart-3{
-        margin-top: 4vw !important;
-        margin-left: 8vw !important;
+        margin-top: 2.3rem !important;
+        margin-left: 5.5rem !important;
     }
 
     .content-chart-3 > p:nth-child(1) {
@@ -1031,8 +1032,8 @@ table {
     }
 
     .content-chart-4{
-        margin-top: 5.5vw !important;
-        margin-left: 5.5vw !important;
+        margin-top: 3.1rem !important;
+        margin-left: 3.8rem !important;
     }
 
     .content-chart-4 > p:nth-child(1) {
@@ -1046,131 +1047,65 @@ table {
     }
 
     .content-chart-5{
-        margin-top: 4.5vw !important;
-        margin-left: -5.5vw !important;
+        margin-top: 2.8rem !important;
+        margin-left: -4rem !important;
     }
 
     .content-chart-5 > p:nth-child(1) {
         font-size: 15px !important;
-        width: 80%;
     }
-    
+
     .content-chart-5 > p:nth-child(2) {
         font-size: 10px !important;
-        width: 80%;
     }
 
-    .check-content-white{
-        margin-top: 3rem !important;
-    }
-}
-
-@media screen and (max-width: 1305px) {
-    .content-chart-2{
-        margin-top: 3vw !important;
-        margin-left: 5vw !important;
+    .check-content-white > img {
+        width: 70px;
     }
 
-    .content-chart-3{
-        margin-top: 3.5vw !important;
-        margin-left: 7.5vw !important;
-    }
-
-    .content-chart-4{
-        margin-top: 5vw !important;
-        margin-left: 5.5vw !important;
-    }
-
-    .content-chart-5{
-        margin-top: 4vw !important;
-        margin-left: -5.5vw !important;
-    }
-
-}
-
-@media screen and (max-width: 1305px) {
-    .content-chart-2{
-        margin-top: 3vw !important;
-        margin-left: 5vw !important;
-    }
-
-    .content-chart-3{
-        margin-top: 3.5vw !important;
-        margin-left: 7.5vw !important;
-    }
-
-    .content-chart-4{
-        margin-top: 5vw !important;
-        margin-left: 5.5vw !important;
-    }
-
-    .content-chart-5{
-        margin-top: 4vw !important;
-        margin-left: -5.5vw !important;
-    }
-
-}
-
-@media screen and (max-width: 1285px) {
-    .content-chart-2{
-        margin-top: 2vw !important;
+    .content-check > p {
+        font-size: 14px !important;
     }
 }
 
 @media screen and (max-width: 1285px) {
-    .content-chart-4{
-        margin-top: 4vw !important;
+    .fs-67-5{
+        font-size: 50px !important;
+    }
+
+    .group-item-banner{
+        margin-top: 1.5rem !important;
     }
 }
 
-@media screen and (max-width: 1285px) {
-    .content-chart-4{
-        margin-top: 4vw !important;
-        margin-left: 5vw !important;
-    }
-}
 
-@media screen and (max-width: 1240px) {
-    .content-chart-1{
-        margin-top: 0.3vw !important;
-        margin-left: -5.5vw !important;
+@media screen and (max-width: 1181px) {
+    .fs-26-2{
+        font-size: 19px !important;
     }
 
-    .content-chart-2{
-        margin-top: 2vw !important;
-        margin-left: 5vw !important;
-    }
-}
-
-@media screen and (max-width: 1210px) {
-    .content-chart-3{
-        margin-top: 2.5vw !important;
+    .fs-19{
+        font-size: 15px !important;
     }
 
-    .content-chart-2{
-        margin-top: 1vw !important;
+    .fs-22-5{
+        font-size: 19.5px !important;
     }
-}
 
-@media screen and (max-width: 1175px) {
-    .content-chart-5{
-        margin-top: 3vw !important;
+    .bg-banner-dynamic{
+        margin-top: -300px;
+    }
+
+    .btn-banner-2,  .btn-banner-3{
+        height: 65px;
+    }
+
+    .text-desc-1{
+        font-size: 14px !important;
     }
 }
 
 @media screen and (max-width: 1145px) {
-    .content-chart-2{
-        margin-top: -1vw !important;
-    }
-
-    .content-chart-3{
-        margin-top: 0vw !important;
-    }
-
-    .content-chart-4{
-        margin-top: 3vw !important;
-    }
-
     .check-content-white{
         margin-top: 1.5rem !important;
         padding-top: 10px;
@@ -1182,168 +1117,207 @@ table {
 
 }
 
+@media screen and (max-width: 1131px) {
+    .fs-26-2{
+        font-size: 12px !important;
+    }
+
+    .btn-banner-2,  .btn-banner-3{
+        height: 50px;
+        font-size: 20px !important;
+    }
+
+}
+
 @media screen and (max-width: 1091px) {
-    #img-item-center-chart{
-        width: 100%;
-    }
 
-    .content-chart-1 {
-        margin-left: -3.5rem !important;
-    }
-
-    .content-chart-1 > p:nth-child(1) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-1 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-2{
-        margin-top: -1rem !important;
-        margin-left: 3rem !important;
-    }
-
-    .content-chart-2 > p:nth-child(1) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-    
-    .content-chart-2 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-3{
-        margin-top: -0.5rem !important;
-        margin-left: 4.5rem !important;
-    }
-
-    .content-chart-3 > p:nth-child(1) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-    
-    .content-chart-3 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-4{
-        margin-top: 2.5rem !important;
-        margin-left: 3rem !important;
-    }
-
-    .content-chart-4 > p:nth-child(1) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-    
-    .content-chart-4 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-
-    .content-chart-5{
-        margin-top: 2rem !important;
-        margin-left: -3.5rem !important;
-    }
-
-    .content-chart-5 > p:nth-child(1) {
-        font-size: 10px !important;
-        width: 80%;
-    }
-    
-    .content-chart-5 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
-    }
 
     .check-content-white{
-        margin-top: 1.5rem !important;
-    }
-}
-
-@media screen and (max-width: 1055px) {
-    .content-chart-1 > p:nth-child(1) {
-        font-size: 8px !important;
-        width: 80%;
+        margin-top: 3.5rem !important;
     }
 
-    .content-chart-1 > p:nth-child(2) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-
-    .content-chart-2{
-        margin-top: 1.5rem !important;
-        margin-left: 3rem !important;
-    }
-
-    .content-chart-2 > p:nth-child(1) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-    
-    .content-chart-2 > p:nth-child(2) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-
-    .content-chart-3{
-        margin-top: 2rem !important;
-        margin-left: 4.5rem !important;
-    }
-
-    .content-chart-3 > p:nth-child(1) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-    
-    .content-chart-3 > p:nth-child(2) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-
-    .content-chart-4{
-        margin-top: 3rem !important;
-        margin-left: 3rem !important;
-    }
-
-    .content-chart-4 > p:nth-child(1) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-    
-    .content-chart-4 > p:nth-child(2) {
-        font-size: 8px !important;
-        width: 80%;
-    }
-
-    .content-chart-5{
-        margin-top: 2rem !important;
-        margin-left: -3.5rem !important;
-    }
-
-    .content-chart-5 > p:nth-child(1) {
+    .text-desc-1{
         font-size: 10px !important;
-        width: 80%;
-    }
-    
-    .content-chart-5 > p:nth-child(2) {
-        font-size: 10px !important;
-        width: 80%;
     }
 
 }
 
+@media screen and (max-width: 1055px) {
+
+    .fs-11{
+        font-size: 9px !important;
+    }
+
+    .btn-banner-2 , .btn-banner-3 {
+        height: 40px;
+    }
+
+    .btn-banner-2 > table , .btn-banner-3 > table {
+        width: 95% !important;
+    }
+
+    .item-tick-content-4 > * {
+        font-size: 12px !important;
+    }
+
+    .item-tick-content-4 > img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .title-content-4 > div {
+        height: fit-content !important;
+    }
+
+    .fs-36-5 {
+        font-size: 16px !important;
+    }
+
+    .fs-19{
+        font-size: 14px !important;
+    }
+
+    .phone-feilset > .phonenumber {
+        font-size: 20px !important;
+    }
+
+    .fs-16{
+        font-size: 12px !important;
+    }
+
+    .fs-14-5 {
+        font-size: 10px !important;
+    }
+
+    .fs-14 {
+        font-size: 10px !important;
+    }
+
+    .fs-11 {
+        font-size: 9px !important;
+    }
+
+    .fs-20{
+        font-size: 12px !important
+    }
+
+    .fs-22-5{
+        font-size: 13px !important;
+    }
+
+    .fs-22{
+        font-size: 15px !important;
+    }
+
+    .fs-16-5{
+        font-size: 12.5px !important;
+    }
+
+    .fs-27{
+        font-size: 18px !important;
+    }
+
+    .underline-left-2 > p.fs-24,
+    .underline-left-1 > p.fs-24,
+    .underline-right-2 > p.fs-24,
+    .underline-right-1 > p.fs-24{
+        font-size: 14px !important;
+    }
+
+    .chart-2 {
+    }
+
+    .group-award {
+        margin-left: 1.5rem;
+    }
+
+    #img-content-chart{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+
+    .content-3.mt-10 > .mt-10 {
+        margin-top: 1rem !important;
+    }
+
+    .content-3.mt-10 {
+        margin-top: 3rem;
+    }
+
+    .content-3.mt-10 > div.mt-5{
+        padding-top: 2rem;
+        padding-bottom: 6.2rem;
+    }
+
+    .case-no{
+        margin-left: 1.5rem !important;
+    }
+
+    .ml--2-rem{
+        margin-left: -1rem !important;
+    }
+
+    .ml--7-rem{
+        margin-left: -5rem !important;
+    }
+
+    .content-right > div > div > .btn-banner-2,
+    .content-right > div > div > .btn-banner-3{
+        height: 55px !important;
+    }
+
+    .div-body-content-5{
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 85%;
+        position: relative;
+    }
+
+    .ct5-head-title > .fs-36-5 {
+        font-size: 20px !important; 
+    }
+
+    .ct5-head-title > .fs-14-5 {
+        font-size: 14px !important; 
+    }
+
+    .item-content-5-web > .price-item-content,
+    .item-content-5-document > .price-item-content,
+    .item-content-5-train > .price-item-content {
+        margin-top: 0 !important;
+    }
+
+    .div-head-content-5:nth-child(3){
+        margin-top: -11rem !important;
+    }
+
+    .div-head-content-5:nth-child(5){
+        margin-top: -13rem !important;
+    }
+}
+
 
 @media screen and (max-width: 1055px) {
-    .content-chart-3{
-        margin-top: 1.5rem !important;
-        margin-left: 4.5rem !important;
+    .content-check-1472d3 > * {
+        font-size: 12px;
+    }
+
+    .item-content-5-web > div > div > div > div, .item-content-5-document > div > div > div > div, .item-content-5-train > div > div > div > div {
+        font-size: 8px !important;
+    }
+
+    .item-content-5-web, .item-content-5-document, .item-content-5-train {
+        background-size: 100% 70%;
+    }
+
+    .list-phonenumber {
+        background-size: 80% 90%;
+        margin-top: 0 !important;
+    }
+
+    .widget-box {
     }
 }
 
