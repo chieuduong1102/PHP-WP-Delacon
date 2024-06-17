@@ -899,7 +899,8 @@ table {
     }
 
     .btn-banner-2, .btn-banner-3 {
-        width: 90% !important;
+        width: 100% !important;
+        height: 140%;
     }
 
     .item-tick-content-4 > div, .item-tick-content-4 > span {
@@ -948,6 +949,10 @@ table {
 
     .text-content-price-5{
         padding-left: 10px;
+    }
+
+    .group-btn-2{
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -1050,6 +1055,27 @@ table {
     .feildset-phonenumber-white{
         width: 100% !important;
         background-size: 120% 100% !important;
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .btn-banner-2, .btn-banner-3 {
+        width: 100% !important;
+        height: 120%;
+    }
+
+    .feildset-phonenumber{
+        width: 100% !important;
+        background-size: 130% 100% !important;
+        border-left: 1px solid #002463;
+        border-right: 1px solid #002463;
+    }
+
+    .feildset-phonenumber-white{
+        width: 100% !important;
+        background-size: 130% 100% !important;
         border-left: 1px solid #ffffff;
         border-right: 1px solid #ffffff;
     }
@@ -1321,7 +1347,9 @@ table {
         font-size: 14px !important;
     }
 
-
+    .btn-banner-2, .btn-banner-3{
+        height: 55px !important;
+    }
 }
 
 @media screen and (max-width: 1145px) {
