@@ -148,6 +148,10 @@ table {
     margin-top: 2rem;
 }
 
+.mt-2-5-rem {
+    margin-top: 2.5rem;
+}
+
 .fs-14-5{
     font-size: 14.5px;
 }
@@ -243,7 +247,7 @@ table {
     background-image: url(../img/bg-content-2.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 115% 84%;
 }
 
 .widget-box {
@@ -286,8 +290,6 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-left: 1.5rem;
-
 }
 
 .award-item {
@@ -654,6 +656,10 @@ table {
 }
 
 @media screen and (max-width: 1708px) {
+    .phonenumber-item > .fs-20{
+        font-size: 15px !important;
+    }
+
     .fs-20{
         font-size: 16px !important;
     }
@@ -664,6 +670,41 @@ table {
 
     .fs-26-2 {
         font-size: 24.2px !important;
+    }
+}
+
+@media screen and (max-width: 1655px) {
+    .phonenumber-item > .fs-20{
+        font-size: 13px !important;
+    }
+
+    .phonenumber-item > .fs-16-5{
+        font-size: 15.5px;
+    }
+
+    #item-check-white{
+        margin-top: 5rem !important;
+    }
+}
+
+@media screen and (max-width: 1635px) {
+    .list-phonenumber{
+        width: 35vw !important;
+    }
+
+    .arrow-chart-right{
+        margin-left: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 1610px) {
+    .list-phonenumber{
+        /* width: 70vw !important; */
+    }
+
+    .arrow-chart-right{
+        margin-left: 1rem !important;
+        margin-right: -1rem;
     }
 }
 
@@ -897,7 +938,6 @@ table {
 @media screen and (max-width: 1573px) {
     .list-phonenumber > .phonenumber-item{
         width: 150px;
-        text-align: center;
     }
 
     .list-phonenumber > .phonenumber-item > p{
@@ -1015,6 +1055,18 @@ table {
 
 @media only screen and (max-width: 1425px) {
 
+    .list-phonenumber {
+        width: fit-content !important;
+    }
+
+    .phonenumber-item{
+        padding: 0.5rem;
+    }
+
+    #item-check-white{
+        margin-top: 3rem !important;
+    }
+
     .underline-left-2 > p.fs-24,
     .underline-left-1 > p.fs-24,
     .underline-right-2 > p.fs-24,
@@ -1035,7 +1087,7 @@ table {
     }
     
     .mt-5-rem{
-        margin-top: 1rem !important;
+        margin-top: 4rem !important;
     }
 
     .content-chart-1{
@@ -1372,7 +1424,6 @@ table {
     }
 
     .group-award {
-        margin-left: 1.5rem;
     }
 
     #img-content-chart{
@@ -1794,8 +1845,16 @@ table {
     width: 15%;
 }
 
+.w-3 {
+    width: 3%;
+}
+
 .w-5 {
     width: 5%;
+}
+
+.w-7 {
+    width: 7%;
 }
 
 .w-20 {
