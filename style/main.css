@@ -148,6 +148,9 @@ table {
     margin-top: 2rem;
 }
 
+.fs-14-5{
+    font-size: 14.5px;
+}
 
 .w-fit-content {
     width: fit-content;
@@ -638,10 +641,29 @@ table {
     padding-right: 15px;
 }
 
+.border-bot-cbf1ff{
+    border-bottom: 20px solid #cbf1ff;
+    width: fit-content;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border-bot-cbf1ff > p{
+    margin-bottom: -25px;
+}
 
 @media screen and (max-width: 1708px) {
     .fs-20{
         font-size: 16px !important;
+    }
+
+    .fs-34-5{
+        font-size: 30px !important;
+    }
+
+    .fs-26-2 {
+        font-size: 24.2px !important;
     }
 }
 
@@ -884,6 +906,16 @@ table {
     }
 }
 
+@media screen and (max-width: 1520px) {
+    .fs-34-5{
+        font-size: 26px !important;
+    }
+
+    .fs-26-2 {
+        font-size: 22.2px !important;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .item-content-5-web > .total-price > .fs-20,
     .item-content-5-document > .total-price .fs-20,
@@ -960,6 +992,14 @@ table {
 
     .title-p-1 {
         width: 250px;
+    }
+
+    .fs-34-5{
+        font-size: 24px !important;
+    }
+
+    .fs-26-2 {
+        font-size: 20.2px !important;
     }
 
 }
@@ -1078,20 +1118,49 @@ table {
     .content-check > p {
         font-size: 14px !important;
     }
+
+    .group-item-banner{
+        margin-top: 1rem !important;
+    }
+
+    .mt-4-5 {
+        margin-top: 1.5rem !important;
+    }
 }
 
 @media screen and (max-width: 1285px) {
+
+    .group-item-banner{
+        margin-top: 0rem !important;
+    }
+
+    .mt-4-5 {
+        margin-top: 0rem !important;
+    }
+
     .fs-67-5{
         font-size: 50px !important;
     }
 
-    .group-item-banner{
-        margin-top: 1.5rem !important;
+    .fs-34-5{
+        font-size: 24px !important;
+    }
+
+    .let-spac-2 {
+        letter-spacing: 0px !important;
+    }
+
+    .let-spac-4 {
+        letter-spacing: 2px !important;
     }
 }
 
 
 @media screen and (max-width: 1181px) {
+    .let-spac-4 {
+        letter-spacing: 1px !important;
+    }
+
     .fs-26-2{
         font-size: 19px !important;
     }
@@ -1136,15 +1205,35 @@ table {
         padding-top: 10px;
     }
 
+    .fs-26-2{
+        font-size: 19px !important;
+    }
+
     .phonenumber-item{
         padding: 10px !important;
+    }
+
+    .fs-67-5 {
+        font-size: 45px !important;
     }
 
 }
 
 @media screen and (max-width: 1131px) {
+    .fs-67-5 {
+        font-size: 40px !important;
+    }
+
+    .mt-4-5 {
+        margin-top: 1.5rem;
+    }
+
+    .fs-34-5{
+        font-size: 22px !important;
+    }
+
     .fs-26-2{
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
 
     .btn-banner-2,  .btn-banner-3{
@@ -1155,6 +1244,14 @@ table {
 }
 
 @media screen and (max-width: 1091px) {
+    .item-header-1 {
+        width: 234.86px;
+    }
+
+    .fs-30-h {
+        font-size: 19px !important;
+    }
+
     .check-content-white{
         margin-top: 3.5rem !important;
     }
@@ -1182,6 +1279,10 @@ table {
 
 @media screen and (max-width: 1055px) {
 
+    .fs-34-5{
+        font-size: 18px !important;
+    }
+
     .fs-11{
         font-size: 9px !important;
     }
@@ -1193,6 +1294,11 @@ table {
     .btn-banner-2 > table , .btn-banner-3 > table {
         width: 95% !important;
     }
+
+    .btn-banner-2 , .btn-banner-3 {
+        height: 50px;
+    }
+
 
     .item-tick-content-4 > * {
         font-size: 12px !important;
@@ -1591,6 +1697,14 @@ table {
     font-size: 30px;
 }
 
+.fs-30-h {
+    font-size: 30px;
+}
+
+.fs-34-5 {
+    font-size: 34.5px;
+}
+
 .fs-36-5 {
     font-size: 36.5px;
 }
@@ -1608,7 +1722,7 @@ table {
 }
 
 .let-spac-2 {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .h-50px {
