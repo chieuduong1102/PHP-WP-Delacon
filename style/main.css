@@ -610,6 +610,10 @@ table {
     font-size: 34px;
 }
 
+.mt--8rem{
+    margin-top: -8rem;
+}
+
 .btn-submit-modal{
     width: 200px;
     height: 55px;
@@ -655,6 +659,18 @@ table {
     margin-bottom: -25px;
 }
 
+.text-content-t-price-5{
+    /* align-items: end !important; */
+}
+
+.text-content-price-5 > p{
+    text-wrap: nowrap;
+}
+
+.text-content-t-price-5 > div > p:nth-child(2){
+    margin-bottom: 13px;
+}
+
 @media screen and (max-width: 1708px) {
     .phonenumber-item > .fs-20{
         font-size: 15px !important;
@@ -662,6 +678,10 @@ table {
 
     .fs-20{
         font-size: 16px !important;
+    }
+
+    .bg-word > .content > .fs-20 {
+        font-size: 20px !important;
     }
 
     .fs-34-5{
@@ -694,6 +714,13 @@ table {
 
     #item-check-white {
         margin-top: 5rem !important;
+    }
+
+    .text-content-price-5{
+    }
+
+    .text-content-item-3 > p{
+        line-height: 1;
     }
 }
 
@@ -980,6 +1007,15 @@ table {
     #item-check-white {
         margin-top: 6.5rem !important;
     }
+
+    .div-body-content-5 > div {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .div-body-content-5 > div > div > p {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 1369px) {
@@ -1027,6 +1063,17 @@ table {
         width: 100% !important;
         background-size: 100% 90% !important;
     }
+    
+    .bg-word > .content > .fs-20 {
+        font-size: 16px !important;
+    }
+
+    .text-content-price-5{
+    }
+
+    .text-content-t-price-5{
+        justify-content: right !important;
+    }
 }
 
 
@@ -1040,9 +1087,26 @@ table {
     }
 }
 
+@media screen and (max-width: 1268px) {
+    .item-content-5-web,
+    .item-content-5-document,
+    .item-content-5-train{
+        width: 96% !important;
+    }
+
+    .item-content-3-1, .item-content-3-2 {
+        width: 240px;
+        height: 230px;
+    }
+}
+
 @media screen and (max-width: 1250px) {
     .btn-banner-2 , .btn-banner-3{
         font-size: 20px !important;
+    }
+
+    .div-body-content-5 > div > div > p {
+        font-size: 12px !important;
     }
 
     .feildset-phonenumber{
@@ -1057,6 +1121,12 @@ table {
         background-size: 120% 100% !important;
         border-left: 1px solid #ffffff;
         border-right: 1px solid #ffffff;
+    }
+
+}
+@media screen and (max-width: 1300px) {
+    .text-content-t-price-5 > div > .fs-22-5{
+        font-size: 19.5px !important;
     }
 }
 
@@ -1079,14 +1149,38 @@ table {
         border-left: 1px solid #ffffff;
         border-right: 1px solid #ffffff;
     }
+
+    .total-price > p:nth-child(1) {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+    }
+
+    .total-price > p:nth-child(2) {
+        font-size: 24px !important;
+    }
+
+    .total-price > p:nth-child(3) {
+        font-size: 14px !important;
+        margin-bottom: 8px;
+    }
 }
 
 @media screen and (max-width: 1205px) {
     .phone-feilset > .phonenumber {
         font-size: 25px !important;
     }
+
+    .text-content-t-price-5.pl-4{
+        padding-left: 5.5rem !important;
+    }
 }
 
+
+@media screen and (max-width: 1474px) {
+    .div-body-content-5 > div > div > p {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 1476px) {
     .item-tick-content-4 > div, .item-tick-content-4 > span {
@@ -1350,6 +1444,24 @@ table {
     .btn-banner-2, .btn-banner-3{
         height: 55px !important;
     }
+
+    .item-content-3-1, .item-content-3-2 {
+        width: 220px;
+        height: 210px;
+    }
+
+    .text-content-item-3.w-50{
+        width: 42% !important;
+    }
+
+    .cirle-stt{
+        margin-left: 1rem !important;
+        margin-top: -1rem !important;
+    }
+
+    .text-content-item-3 > .fs-14 {
+        font-size: 12px !important;
+    }
 }
 
 @media screen and (max-width: 1145px) {
@@ -1391,6 +1503,18 @@ table {
     .text-title-bg-1, .text-title-bg-2{
         font-size: 16px !important;
     }
+
+    .fs-36-5{
+        font-size: 28px !important;
+    }
+
+    .text-content-t-price-5.pl-4{
+        padding-left: 4.5rem !important;
+    }
+
+    .item-content-5-web, .item-content-5-document, .item-content-5-train {
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 1131px) {
@@ -1415,6 +1539,10 @@ table {
         font-size: 20px !important;
     }
 
+    .fs-36-5{
+        font-size: 24px !important;
+    }
+
 }
 
 @media screen and (max-width: 1091px) {
@@ -1422,8 +1550,12 @@ table {
         width: 234.86px;
     }
 
+    .fs-36-5 {
+        font-size: 24px !important;
+    }
+
     .fs-30-h {
-        font-size: 19px !important;
+        font-size: 16px !important;
     }
 
     .check-content-white{
@@ -1449,6 +1581,22 @@ table {
         font-size: 15px !important;
     }
 
+}
+
+@media screen and (max-width: 1081px) {
+    .item-content-3-1, .item-content-3-2 {
+        width: 200px;
+        height: 180px;
+    }
+
+    .text-content-item-3 > p {
+        font-size: 10px !important;
+    }
+
+    .text-content-item-3 {
+        margin-top: -1rem;
+
+    }
 }
 
 @media screen and (max-width: 1055px) {
@@ -1593,7 +1741,7 @@ table {
     }
 
     .ct5-head-title > .fs-36-5 {
-        font-size: 20px !important; 
+        font-size: 24px !important; 
     }
 
     .ct5-head-title > .fs-14-5 {
