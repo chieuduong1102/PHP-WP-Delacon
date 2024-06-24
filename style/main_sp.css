@@ -1611,6 +1611,11 @@ body {
 }
 
 @media (max-width: 576px) {
+    .btn-banner-2, .btn-banner-3, .phonenumber-item-content-4{
+        width: 230px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     .title-widget>.fs-22 {
         font-size: 18px !important;
