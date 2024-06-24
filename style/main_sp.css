@@ -584,8 +584,7 @@ body {
 }
 
 .phone-feilset>img {
-    width: 20%;
-    padding-top: 5px;
+    width: 15%;
 }
 
 .div-head-content-5 {
@@ -736,6 +735,7 @@ body {
 
 .group-button {
     margin: auto;
+    margin-top: 1rem;
 }
 
 .item-ct-3 {
@@ -1611,11 +1611,6 @@ body {
 }
 
 @media (max-width: 576px) {
-    .btn-banner-2, .btn-banner-3, .phonenumber-item-content-4{
-        width: 230px !important;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 
     .title-widget>.fs-22 {
         font-size: 18px !important;
@@ -1628,6 +1623,10 @@ body {
 
     .w-95 {
         width: 100%;
+    }
+
+    .tb-bt-footer{
+        width: 90% !important;
     }
 
     .text-content-item-3 {
@@ -2189,6 +2188,20 @@ body {
     .col-6 {
         max-width: 80%;
     }
+
+    
+    .btn-banner-2,
+    .btn-banner-3 {
+        width: unset;
+    }
+
+    .phonenumber-item-content-4{
+        width: 77%;
+    }
+
+    .btn-banner-2-f, .btn-banner-3-f {
+        width: 65vw;
+    }
 }
 
 @media (max-width: 442px) {
@@ -2202,11 +2215,15 @@ body {
 @media (max-width: 430px) {
 
     table.w-95 {
-        width: 100% !important;
+        width: 100%;
     }
 
     .w-90vw-i {
         width: 95vw !important;
+    }
+
+    .tb-bt-footer{
+        width: 90% !important;
     }
 
     .title-content-4>div>p {
